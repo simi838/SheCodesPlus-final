@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <br />
+      <form>
+        <input
+          type="search"
+          class="form-control"
+          aria-label="Search City"
+          aria-describedby="inputGroup-sizing-sm"
+          placeholder="Search City..."
+          autocomplete="off"
+          autofocus="on"
+          id="searchInput"
+        />
+      </form>
+      <br />
+      <button id="current-location-button">Current Location</button>
+      <br />
+      <div class="cardone">
+        <i class="fa-solid fa-circle forcard"></i>
+        <h2 class="date" id="date">Wednesday, 21st June 2023</h2>
+        <p class="temperature" id="temperature">16°C</p>
+        <p class="description" id="description">Clear</p>
+        <a href="#" id="celsius">°C</a> |
+        <a href="#" id="fahrenheit">°F</a>
+        <p class="location" id="location">
+          <i class="fa-solid fa-location-dot" id="cityName"></i>
+        </p>
+      </div>
+
+      <br />
+      <div class="card week">
+        <div class="row">
+          <div class="col-md-2">
+            <div class="card rend">
+              <div class="card-body">
+                <h3>Wed 21st</h3>
+                <p class="temp">10° | 17°C</p>
+                <p><i class="fa-solid fa-circle sun"></i></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card mid">
+              <div class="card-body">
+                <h3>Thu 22nd</h3>
+                <p class="temp">9° | 16°C</p>
+                <p><i class="fa-solid fa-circle sun"></i></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card mid">
+              <div class="card-body">
+                <h3>Fri 23rd</h3>
+                <p class="temp">11° | 20°C</p>
+                <p><i class="fa-solid fa-cloud-sun cloud"></i></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card mid">
+              <div class="card-body">
+                <h3>Sat 24th</h3>
+                <p class="temp">4° | 14°C</p>
+                <p><i class="fa-solid fa-cloud-showers-heavy rain"></i></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card end">
+              <div class="card-body">
+                <h3>Sun 25th</h3>
+                <p class="temp">8° | 18°C</p>
+                <p><i class="fa-solid fa-circle sun"></i></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/9bfa97af0b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="src/index.js"></script>
+  </body>
+</html>
