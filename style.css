@@ -1,0 +1,129 @@
+.form-control {
+  text-align: left;
+  margin: 0 auto;
+  height: 50px;
+  width: 50%;
+  font-size: large;
+  border-radius: 45px;
+  box-shadow: 5px 5px 5px rgb(219, 214, 214);
+}
+
+.cardone {
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgb(219, 214, 214);
+  position: relative;
+  margin: 0 auto;
+  height: 400px;
+  width: 800px;
+  text-align: center;
+}
+
+.date {
+  padding: 45px;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.location {
+  padding: 15px;
+  font-family: "Merriweather", serif;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.temperature {
+  font-weight: bold;
+  font-size: 80px;
+}
+.col-md-2 {
+  width: 150px;
+  height: 150px;
+  padding: 0%;
+  text-align: center;
+  margin: 0 auto;
+  position: static;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 300px;
+}
+.week {
+  width: max-content;
+  height: 140px;
+  margin: 0 auto;
+  border-radius: 45px;
+}
+
+.end {
+  border-radius: 0 45px 45px 0;
+}
+
+.rend {
+  border-radius: 45px 0 0 45px;
+}
+
+.mid {
+  border-radius: 0 0 0 0;
+}
+
+.sun {
+  font-size: 30px;
+  padding: 0%;
+  color: rgb(255, 239, 98);
+}
+.cloud {
+  font-size: 30px;
+  color: rgb(100, 93, 93);
+}
+
+.rain {
+  color: rgba(20, 20, 190, 0.705);
+  font-size: 30px;
+}
+
+.forcard {
+  position: absolute;
+  color: rgb(255, 239, 98);
+  z-index: -1;
+  left: 200px;
+  opacity: 50%;
+  font-size: 350px;
+  padding: 20px;
+}
+body {
+  font-family: "Merriweather", serif;
+}
+.temp {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+a {
+  font-family: "Merriweather", serif;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+button {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgb(238, 242, 243);
+  border-radius: 45px;
+  font-weight: bold;
+  padding: 10px;
+  transition: ease-in-out 0.5s;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(199, 240, 240);
+}
+
+.description {
+  font-weight: bold;
+  font-size: larger;
+}
