@@ -127,3 +127,7 @@ button:hover {
   font-weight: bold;
   font-size: larger;
 }
+
+.sourcecode {
+  text-align: center;
+}
