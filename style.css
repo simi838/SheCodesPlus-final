@@ -130,4 +130,5 @@ button:hover {
 
 .sourcecode {
   text-align: center;
+  display: block;
 }
