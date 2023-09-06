@@ -131,4 +131,9 @@ button:hover {
 small {
   text-align: center;
   display: block;
+  padding: 40px;
+}
+
+.git {
+  text-decoration: underline;
 }
