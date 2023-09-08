@@ -84,12 +84,10 @@ h3 {
 
 .forcard {
   position: absolute;
-  color: rgb(255, 239, 98);
   z-index: -1;
-  left: 200px;
+
   opacity: 50%;
-  font-size: 350px;
-  padding: 20px;
+  padding: 130px;
 }
 body {
   font-family: "Merriweather", serif;
