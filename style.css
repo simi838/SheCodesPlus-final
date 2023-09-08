@@ -6,6 +6,7 @@
   font-size: large;
   border-radius: 45px;
   box-shadow: 5px 5px 5px rgb(219, 214, 214);
+  background-color: rgb(253, 252, 237);
 }
 
 .cardone {
@@ -16,6 +17,7 @@
   height: 400px;
   width: 800px;
   text-align: center;
+  background-color: rgb(253, 252, 237);
 }
 
 .date {
@@ -53,6 +55,7 @@ h3 {
   height: 100px;
   margin: 0 auto;
   border-radius: 45px;
+  background-color: rgb(253, 252, 237);
 }
 
 .end {
@@ -83,9 +86,11 @@ h3 {
 }
 
 .forcard {
+  width: 150px;
+  height: 150px;
   position: absolute;
-  z-index: -1;
-  opacity: 50%;
+  top: 50px;
+  right: 200px;
 }
 body {
   font-family: "Merriweather", serif;
@@ -107,7 +112,7 @@ button {
   display: block;
   text-align: center;
   margin: 0 auto;
-  background-color: rgb(238, 242, 243);
+  background-color: rgb(253, 248, 235);
   border-radius: 45px;
   font-weight: bold;
   padding: 10px;
@@ -116,7 +121,7 @@ button {
 
 button:hover {
   cursor: pointer;
-  background-color: rgb(199, 240, 240);
+  background-color: rgb(255, 255, 255);
 }
 
 .description,
