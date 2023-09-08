@@ -23,7 +23,7 @@
   <body>
     <div class="container">
       <br />
-      <form>
+      <form id="search-form">
         <input
           type="search"
           class="form-control"
@@ -42,16 +42,17 @@
         <img src="" alt="" id="icon" class="forcard" />
         <h2 class="date" id="date">Wednesday, 21st June 2023</h2>
         <p class="temperature" id="temperature">16°C</p>
+        <a href="#" id="celsius">°C</a> | <a href="#" id="fahrenheit">°F</a>
+        <p></p>
         <p class="description" id="description">Clear</p>
-        <a href="#" id="celsius">°C</a> |
-        <a href="#" id="fahrenheit">°F</a>
+        <p class="wind" id="wind"></p>
         <p class="location" id="location">
           <i class="fa-solid fa-location-dot" id="cityName"></i>
         </p>
       </div>
 
       <br />
-      <div class="card week">
+      <div class="card week weather-forecast" id="forecast">
         <div class="row">
           <div class="col-md-2">
             <div class="card rend">

@@ -19,13 +19,12 @@
 }
 
 .date {
-  padding: 45px;
   font-size: 30px;
   font-weight: 800;
+  padding: 5px;
 }
 
 .location {
-  padding: 15px;
   font-family: "Merriweather", serif;
   font-size: 30px;
   font-weight: 800;
@@ -33,7 +32,8 @@
 
 .temperature {
   font-weight: bold;
-  font-size: 80px;
+  font-size: 100px;
+  padding: -50px;
 }
 .col-md-2 {
   width: 150px;
@@ -50,7 +50,7 @@ h3 {
 }
 .week {
   width: max-content;
-  height: 140px;
+  height: 100px;
   margin: 0 auto;
   border-radius: 45px;
 }
@@ -85,9 +85,7 @@ h3 {
 .forcard {
   position: absolute;
   z-index: -1;
-
   opacity: 50%;
-  padding: 130px;
 }
 body {
   font-family: "Merriweather", serif;
@@ -121,9 +119,10 @@ button:hover {
   background-color: rgb(199, 240, 240);
 }
 
-.description {
+.description,
+.wind {
   font-weight: bold;
-  font-size: larger;
+  font-size: large;
 }
 
 small {
