@@ -127,27 +127,6 @@ function handleSubmit(event) {
   search(cityInputElement.value);
 }
 
-function showFahr(event) {
-  event.preventDefault();
-  let fahrenheitTemperature = (celciusTemperature * 9) / 5 + 32;
-  let temperaturePart = document.querySelector("#temperature");
-  temperaturePart.innerHTML = Math.round(fahrenheitTemperature);
-}
-
-function displayCelciusTemperature(event) {
-  event.preventDefault();
-  let temperaturePart = document.querySelector("#temperature");
-  temperaturePart.innerHTML = Math.round(celciusTemperature);
-}
-
-let celciusTemperature = null;
-
-let fahrenheitLink = document.querySelector("#fahrenheit");
-fahrenheitLink.addEventListener("click", showFahr);
-
-let celciusLink = document.querySelector("#celcius");
-celciusLink.addEventListener("click", displayCelciusTemperature);
-
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
 
